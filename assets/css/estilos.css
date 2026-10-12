@@ -1,0 +1,117 @@
+/* estilos para toda la pagina */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* fondo oscuro sencillo */
+  color: #ffffff; /* texto blanco para que se lea facil */
+}
+
+/* barra de navegacion con colores lakers y detalle rojo */
+header {
+  background-color: #552583; /* morado lakers */
+  padding: 15px;
+  text-align: center;
+  border-bottom: 4px solid #d92525; /* toque rojo */
+}
+
+/* titulo principal */
+header h1 {
+  margin: 0;
+  color: #fdb927; /* dorado lakers */
+}
+
+/* menu de opciones */
+nav {
+  margin-top: 10px;
+}
+
+/* botones del menu */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* cambio de color al pasar el raton */
+nav a:hover {
+  color: #fdb927;
+}
+
+/* contenedor principal del contenido */
+.contenedor {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* titulos de las secciones */
+h2 {
+  color: #fdb927;
+  border-bottom: 2px solid #552583;
+  padding-bottom: 5px;
+}
+
+/* seccion de fotos de los jugadores antes del footer */
+.galeria-jugadores {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
+  width: 80%;
+  flex-wrap: wrap; /* para que se acomoden si la pantalla es pequeña */
+}
+
+/* estilo para cada imagen de la galeria */
+.galeria-jugadores img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* para que no se deformen ni estiren */
+  border-radius: 8px;
+  border: 3px solid #fdb927; /* borde dorado estilo lakers */
+}
+
+/* distribucion en columnas para las conferencias y divisiones */
+.conferencias-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+/* cada columna de conferencia (este y oeste) */
+.columna-conferencia {
+  flex: 1;
+  min-width: 280px;
+  background-color: #262626;
+  padding: 15px;
+  border-radius: 8px;
+  border-top: 3px solid #fdb927;
+}
+
+/* estilo para los titulos de division */
+.columna-conferencia h4 {
+  color: #fdb927;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  border-bottom: 1px solid #552583;
+}
+
+/* quita el margen exagerado de las listas */
+.columna-conferencia ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+/* pie de pagina */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #552583;
+  color: #ffffff;
+  margin-top: 30px;
+}
