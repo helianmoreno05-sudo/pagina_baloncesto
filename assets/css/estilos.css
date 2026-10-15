@@ -71,7 +71,7 @@ h2 {
   height: 250px;
   object-fit: cover; /* para que no se deformen ni estiren */
   border-radius: 8px;
-  border: 3px solid #fdb927; /* borde dorado estilo lakers */
+  border: 3px solid #fdb927; /* borde dorado  lakers */
 }
 
 /* distribucion en columnas para las conferencias y divisiones */
@@ -113,5 +113,5 @@ footer {
   padding: 15px;
   background-color: #552583;
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 300px;
 }
